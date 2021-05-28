@@ -5,7 +5,7 @@ def generator_list(list_one, list_two):
         else:
             yield (list_one[i], None)
 
-tutors = ['Иван', 'Анастасия', 'Петр', 'Сергей', 'Дмитрий', 'Борис', 'Елена']
+tutors = ['Иван', 'Анастасия', 'Петр', 'Сергей', 'Дмитрий', 'Борис']
 klasses = ['9А', '7В', '9Б', '9В', '8Б', '9В', '8Б']
 
 final_list = generator_list(tutors, klasses)
